@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Produção de vídeos · ter 24/11 · Minimal Club</title>
-<meta name="description" content="12 concluídos · 1 em edição · 4 a fazer · 10 aguardando revisão · 10 atrasados">
+<meta name="description" content="Resumo antes da daily · o que foi entregue, o que está em edição e o que está em revisão.">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Minimal Club · Ultron">
+<meta property="og:site_name" content="Minimal Club · Copy e Vídeo">
 <meta property="og:title" content="Produção de vídeos · ter 24/11">
-<meta property="og:description" content="12 concluídos · 1 em edição · 4 a fazer · 10 aguardando revisão · 10 atrasados">
+<meta property="og:description" content="Resumo antes da daily · o que foi entregue, o que está em edição e o que está em revisão.">
 <meta property="og:url" content="https://marconiteles.github.io/minimal-producao/2026-11-24/">
-<meta property="og:image" content="https://marconiteles.github.io/minimal-producao/2026-11-24/og.jpg?v=1795520496764">
-<meta property="og:image:secure_url" content="https://marconiteles.github.io/minimal-producao/2026-11-24/og.jpg?v=1795520496764">
+<meta property="og:image" content="https://marconiteles.github.io/minimal-producao/2026-11-24/og.jpg?v=1795526013313">
+<meta property="og:image:secure_url" content="https://marconiteles.github.io/minimal-producao/2026-11-24/og.jpg?v=1795526013313">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -22,193 +22,283 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--canvas:#17191b;--s1:#1d2023;--s2:#232629;--s3:#2b2e32;--ink:#eff0f1;--ink2:#b6bbc0;--ink3:#9a9fa4;--ink4:#6e7378;--line:rgb(239 240 241/.09);--accent:#f4762e;--ok:#6fd39c;--warn:#e3c56d;--err:#f59189;--info:#8fb4ff;color-scheme:dark}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--canvas);color:var(--ink);font:15px/1.45 Inter,"Inter Variable",system-ui,sans-serif;font-feature-settings:"tnum" 1}
-.wrap{max-width:1080px;margin:0 auto;padding:28px 16px 56px}
-.marca{display:flex;align-items:center;gap:10px;color:var(--ink3);font-size:13px;letter-spacing:.02em}
-.marca i{width:8px;height:8px;border-radius:50%;background:var(--accent);display:inline-block}
-h1{font-size:28px;line-height:1.15;margin:10px 0 4px;font-weight:700;letter-spacing:-.01em}
-.sub{color:var(--ink3);margin:0 0 22px;font-size:14px}
-.kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin-bottom:14px}
-.kpi{background:var(--s1);border:1px solid var(--line);border-radius:12px;padding:12px 12px 10px;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:2px;transition:background .15s}
-.kpi:hover{background:var(--s2)}
-.kpi .num{font-size:30px;font-weight:700;line-height:1}
-.kpi .lbl{font-size:12px;color:var(--ink3)}
-.k-ok .num{color:var(--ok)}.k-accent .num{color:var(--accent)}.k-warn .num{color:var(--warn)}.k-info .num{color:var(--info)}.k-err .num{color:var(--err)}
-.alerta{background:rgb(245 145 137/.1);border:1px solid rgb(245 145 137/.28);color:#fbd3cf;border-radius:12px;padding:10px 14px;font-size:14px;margin:0 0 22px}
-.alerta b{color:var(--err)}
-.grade{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px 22px}.coluna{min-width:0}
-.coluna h4{margin:0 0 10px;font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink4);font-weight:600}
-.bloco{margin-bottom:22px}
-.bloco header{display:flex;align-items:baseline;justify-content:space-between;gap:8px;border-top:2px solid var(--c);padding-top:10px}
-.b-ok{--c:var(--ok)}.b-accent{--c:var(--accent)}.b-warn{--c:var(--warn)}.b-info{--c:var(--info)}.b-err{--c:var(--err)}
-.bloco h2{margin:0;font-size:17px;font-weight:600}
-.cont{color:var(--c);font-weight:600;font-size:14px;white-space:nowrap}
-.desc{margin:2px 0 10px;color:var(--ink4);font-size:12.5px}
-.nada{color:var(--ink4);font-size:13.5px;margin:6px 0 0;padding:14px;border:1px dashed var(--line);border-radius:12px}
-.card{display:flex;gap:12px;background:var(--s1);border:1px solid var(--line);border-radius:12px;padding:10px;margin-bottom:8px}
-.card-atraso{border-color:rgb(245 145 137/.35)}
-.thumbs{display:flex;gap:4px;flex:none;align-items:flex-start}
-.thumbs img,.thumbs .vazia{width:44px;height:78px;border-radius:6px;object-fit:cover;background:var(--s3);display:block}
-.thumbs .vazia{background:repeating-linear-gradient(135deg,var(--s2) 0 6px,var(--s3) 6px 12px)}
-.thumbs .mais{align-self:center;color:var(--ink3);font-size:12px;padding-left:2px}
-.info{min-width:0;flex:1}
-.topo{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:3px}
-.tag{font-size:11px;color:var(--ink2);background:var(--s3);border-radius:5px;padding:1px 6px}
-.tag.st{color:var(--warn);background:rgb(227 197 109/.12)}
-.prazo{font-size:12px;color:var(--ink3);margin-left:auto;white-space:nowrap}
-.prazo.atrasado{color:var(--err);font-weight:600}
-.card h3{margin:0;font-size:14.5px;font-weight:600;line-height:1.3;overflow-wrap:anywhere}
-.n{margin:3px 0 4px;color:var(--ink2);font-size:13px}
-.quem{margin:0;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12.5px;color:var(--ink3)}
-.quem b{font-weight:500;color:var(--ink4);margin-right:3px}
-.rodape-nota{color:var(--ink4);font-size:12.5px;border-top:1px solid var(--line);padding-top:12px;margin-top:8px}
-footer{margin-top:28px;color:var(--ink4);font-size:12.5px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media (max-width:760px){.grade{grid-template-columns:minmax(0,1fr)}.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}.kpi .lbl{font-size:11px}.prazo{margin-left:0;width:100%}h1{font-size:24px}.thumbs img:nth-child(n+4),.thumbs .vazia:nth-child(n+4){display:none}}
-@media (max-width:380px){.kpi .num{font-size:24px}}
+:root{--canvas:#17191b;--s1:#1d2023;--s2:#232629;--s3:#2b2e32;--ink:#eff0f1;--ink2:#c3c7cb;--ink3:#a3a8ad;--line:rgb(239 240 241/.09);--line2:rgb(239 240 241/.16);--accent:#f4762e;--red:#ff6b70;color-scheme:dark;
+--sp1:4px;--sp2:8px;--sp3:12px;--sp4:16px;--sp5:24px;--sp6:32px;--sp7:48px}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--canvas);color:var(--ink);font:15px/1.5 Inter,"Inter Variable",system-ui,sans-serif;font-feature-settings:"tnum" 1}
+a{color:inherit}
+:focus-visible{outline:2px solid #80baff;outline-offset:2px;border-radius:4px}
+.wrap{max-width:860px;margin:0 auto;padding:var(--sp6) var(--sp4) var(--sp7)}
+.marca{display:flex;align-items:center;gap:var(--sp2);color:var(--ink3);font-size:13px;font-weight:500}
+.marca i{width:8px;height:8px;border-radius:50%;background:var(--accent)}
+h1{font-size:30px;line-height:1.15;margin:var(--sp2) 0 var(--sp1);font-weight:700;letter-spacing:-.02em}
+h1 .data{white-space:nowrap;color:var(--accent)}
+.sub{color:var(--ink3);margin:0;font-size:14px}
+/* 1. Antes da daily */
+.decisao{margin:var(--sp5) 0 0;border:1px solid var(--line2);background:var(--s1);border-radius:14px;padding:var(--sp4)}
+.decisao.ok{border-color:var(--line);background:var(--s1)}
+.decisao h2{margin:0 0 var(--sp3);font-size:18px;font-weight:700;letter-spacing:-.01em;text-wrap:balance}.decisao h2 span{color:var(--red)}.decisao h2 span::before{content:" · "}
+.decisao.ok h2 span{color:var(--ink2)}
+.at-grupo{border-left:3px solid var(--line2);padding-left:var(--sp3)}.at-grupo.g-atraso{border-left-color:var(--red)}.at-grupo.g-hoje{border-left-color:var(--accent)}
+.at-grupo+.at-grupo{margin-top:var(--sp4)}
+.at-grupo h3{margin:0 0 var(--sp1);font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2)}
+.at-grupo h3 span{font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink3);margin-left:var(--sp2)}
+.at-vazio{margin:0;color:var(--ink3);font-size:14px}.at-vazio b{font-weight:600;color:var(--ink2);font-size:12px;letter-spacing:.05em;text-transform:uppercase;margin-right:6px}
+.decisao ul{list-style:none;margin:0;padding:0}
+.decisao li a{display:grid;grid-template-columns:84px 200px minmax(0,1fr) auto;gap:var(--sp3);align-items:center;text-decoration:none;min-height:44px;padding:4px 0}
+.decisao li a:hover .a-titulo{text-decoration:underline}
+.sinal{justify-self:start;font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap;border-radius:4px;padding:2px 6px}
+.sinal.vermelho{color:var(--red);background:rgb(255 107 112/.16)}.sinal.laranja{color:var(--accent);background:rgb(244 118 46/.16)}
+.a-quem{font-size:14.5px;display:flex;flex-direction:column;line-height:1.3}.a-quem b{font-weight:600}.desde{font-size:12px;color:var(--ink3);font-weight:400}
+.a-titulo{font-size:14.5px;font-weight:500;color:var(--ink2);min-width:0}.a-titulo small{font-weight:400;color:var(--ink3);font-size:13px;margin-left:4px}
+.a-n{font-size:13px;color:var(--ink2);white-space:nowrap}.seta-ir{color:var(--ink3);font-size:15px;margin-left:4px}
+.decisao li a{border-radius:8px;margin-inline:-8px;padding-inline:8px}.decisao li a:hover{background:rgb(239 240 241/.04)}
+/* 2. Resumo, na ordem dos blocos */
+.resumo{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp3);margin:var(--sp4) 0 0}
+.fluxo{background:var(--s1);border:1px solid var(--line);border-radius:14px;padding:var(--sp3);display:flex;flex-direction:column}.fluxo .etapas{flex:1}
+.rotulo-grupo{margin:0 0 var(--sp2);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3)}
+.etapas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--sp2)}
+.etapa{display:flex;flex-direction:column;gap:1px;text-decoration:none;padding:var(--sp2) 10px;border-radius:10px;background:var(--s2);min-height:84px;border:1px solid transparent}
+.etapa:hover{background:var(--s3)}
+.etapa.com-atraso{border-color:rgb(255 107 112/.45)}
+.etapa .num{font-size:28px;font-weight:700;line-height:1.1}
+.etapa.zerado .num{color:var(--ink3)}
+.etapa .rot{font-size:13px;color:var(--ink2);line-height:1.3}
+.etapa .alerta-num{font-size:12px;font-weight:600;color:var(--red);margin-top:auto;line-height:1.25}
+.etapa .obs{font-size:12px;color:var(--ink3);margin-top:auto}
+/* 3. Blocos */
+.grupo{margin-top:var(--sp6)}
+.grupo>h2{font-size:22px;font-weight:700;letter-spacing:-.01em;margin:0 0 var(--sp2)}
+.secao{margin-bottom:var(--sp4);scroll-margin-top:12px}
+.linha{scroll-margin-top:16px}.linha:target{background:rgb(244 118 46/.08);margin-inline:-12px;padding-inline:12px;border-radius:10px}.linha.tem-atraso:target::before{left:2px}
+.secao header{display:flex;justify-content:space-between;align-items:baseline;gap:var(--sp3);padding:var(--sp3) 0 var(--sp2);border-bottom:1px solid var(--line2)}
+.titulo-secao{margin:0;font-size:16px;font-weight:600;color:var(--ink)}
+.total{font-size:13.5px;color:var(--ink2);font-weight:500;white-space:nowrap}
+.vazio-txt{margin:0;color:var(--ink3);font-size:14px;padding:var(--sp3) 0}
+.lista{list-style:none;margin:0;padding:0}
+.linha{position:relative;display:grid;grid-template-columns:172px minmax(0,1fr);gap:var(--sp4);align-items:start;padding:var(--sp3) 0;border-bottom:1px solid var(--line)}
+.linha:last-child{border-bottom:0}
+.linha.tem-atraso::before{content:"";position:absolute;left:-10px;top:12px;bottom:12px;width:3px;border-radius:2px;background:var(--red)}
+.tira{display:flex;gap:4px;align-items:flex-start;position:relative}
+.tira img{width:40px;height:71px;object-fit:cover;border-radius:5px;background:var(--s3);display:block}
+.tira{width:max-content}.tira .mais{position:absolute;right:3px;bottom:3px;min-width:22px;text-align:center;background:rgb(0 0 0/.72);color:#fff;border-radius:4px;padding:0 4px;font-size:11px;font-weight:600;line-height:18px}
+.tira.vazia span{display:flex;align-items:center;justify-content:center;text-align:center;width:40px;height:71px;border-radius:5px;background:var(--s2);color:var(--ink3);font-size:11px;line-height:1.2;padding:3px}
+.tira.vazia span{width:40px;height:40px;border:1px dashed var(--line2);background:transparent;font-size:10px}
+.corpo{min-width:0}
+.estado{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:6px}
+.pill{display:inline-flex;align-items:center;height:22px;padding:0 8px;border-radius:4px;background:var(--pc);color:var(--pt);font-size:11.5px;font-weight:600;letter-spacing:.04em;white-space:nowrap}
+.tag.rodada-ant{color:var(--accent);border-color:rgb(244 118 46/.45)}
+.tag{font-size:11px;color:var(--ink2);border:1px solid var(--line2);border-radius:4px;padding:0 6px;height:20px;display:inline-flex;align-items:center}
+.qtd{margin-left:auto;font-size:13px;color:var(--ink2);white-space:nowrap}.qtd b{font-size:17px;color:var(--ink);font-weight:700;margin-right:3px}
+.corpo h4{margin:0;font-size:16px;font-weight:600;line-height:1.3;overflow-wrap:anywhere}
+.corpo h4 a{text-decoration:underline;text-decoration-color:rgb(239 240 241/.28);text-underline-offset:3px;display:inline-block;padding:6px 0;margin:-6px 0}.corpo h4 a:hover{text-decoration-color:currentColor}
+.ext{font-size:12px;color:var(--ink3);margin-left:4px;font-weight:500}
+.contexto{margin:1px 0 0;color:var(--ink3);font-size:13px}
+.rodada,.datas{display:flex;flex-wrap:wrap;gap:2px 14px}.rodada>span{white-space:nowrap}
+.rodada{margin:var(--sp1) 0 0;font-size:13px;color:var(--ink2)}
+.rodada .seg{color:var(--accent);text-decoration:none;font-weight:500;display:inline-flex;align-items:center;min-height:44px;margin:-12px 0}
+.res{white-space:nowrap}.res i{display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--c);margin-right:5px;vertical-align:1px}
+.pessoas{margin:var(--sp1) 0 0;display:flex;flex-wrap:wrap;gap:0 var(--sp4);font-size:13px}
+.pessoas div{display:flex;gap:5px}.pessoas dt{color:var(--ink3)}.pessoas dd{margin:0;color:var(--ink2)}
+.datas{margin:2px 0 0;font-size:13px;color:var(--ink3)}
+
+.quando{white-space:nowrap}.quando.atraso{color:var(--red);font-weight:600}.quando.hoje{color:var(--accent);font-weight:600}.quando.ok{color:var(--ink2)}
+.antigos{margin-top:var(--sp5);border-top:1px solid var(--line);padding-top:var(--sp2);color:var(--ink3);font-size:13px}
+.antigos summary{cursor:pointer;min-height:44px;display:flex;align-items:center;gap:8px;list-style:none;color:var(--ink2)}
+.antigos summary::-webkit-details-marker{display:none}
+.antigos summary::before{content:"▸";color:var(--ink3);transition:transform .15s ease;flex-shrink:0}
+.antigos[open] summary::before{transform:rotate(90deg)}
+@media (prefers-reduced-motion:reduce){.antigos summary::before{transition:none}}
+.antigos ul{list-style:none;padding:0;margin:var(--sp2) 0;display:grid;gap:6px}.antigos li{display:flex;gap:var(--sp2);align-items:center;color:var(--ink2)}.nome-antigo{min-width:0;overflow-wrap:anywhere;color:var(--ink2);display:flex;align-items:center;min-height:44px}.antigos li{min-height:44px}
+.legenda{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:var(--sp4);color:var(--ink3);font-size:12.5px}
+.nota{color:var(--ink3);font-size:12.5px;margin:var(--sp2) 0 0}
+footer{margin-top:var(--sp6);padding-top:var(--sp3);border-top:1px solid var(--line);color:var(--ink3);font-size:12.5px;display:flex;justify-content:space-between;gap:var(--sp3);flex-wrap:wrap}
+@media (max-width:760px){.resumo{grid-template-columns:1fr}}
+@media (max-width:640px){
+ .wrap{padding-top:var(--sp5)}
+ h1{font-size:22px}
+ .decisao{padding:var(--sp3)}.decisao h2 span{display:block;font-size:16px;margin-top:2px}.decisao h2 span::before{content:none}
+ .decisao li a{grid-template-columns:80px minmax(0,1fr) auto;row-gap:0;align-items:baseline}
+ .sinal{grid-row:1/3;align-self:start;margin-top:2px}
+ .a-quem{grid-column:2;grid-row:1}.a-n{grid-column:3;grid-row:1}.a-titulo{grid-column:2/4;grid-row:2;font-size:14px}
+ .etapa{padding:6px 8px;min-height:106px}.etapa .num{font-size:24px}
+ .linha{grid-template-columns:56px minmax(0,1fr);gap:var(--sp3)}
+ .tira img:nth-child(n+2){display:none}.tira img{width:56px;height:100px}
+ .tira[data-mais]:not([data-mais="0"])::after{content:"+" attr(data-mais);position:absolute;right:4px;bottom:4px;background:rgb(0 0 0/.72);color:#fff;border-radius:4px;padding:0 5px;font-size:11px;font-weight:600;line-height:18px}
+ .tira .mais{display:none}
+ .tira.vazia span{width:56px;height:56px;border:1px dashed var(--line2);font-size:10px}
+ .pessoas{font-size:12.5px;gap:0 var(--sp3)}
+ .corpo h4 a{padding:12px 0;margin:-12px 0}
+}
 </style>
 </head>
 <body>
 <main class="wrap">
   <div class="marca"><i></i>Minimal Club · Copy e Vídeo</div>
-  <h1>Produção de vídeos · ter 24/11</h1>
-  <p class="sub">Situação às 08h41, contando desde a daily de seg 23/11 15h30. Números em vídeos (hooks × bodies), não em tarefas.</p>
-  <nav class="kpis" aria-label="Resumo"><a class="kpi k-ok" href="#concluido"><span class="num">12</span><span class="lbl">Concluído</span></a><a class="kpi k-accent" href="#fazendo"><span class="num">1</span><span class="lbl">Sendo feito</span></a><a class="kpi k-warn" href="#fazer"><span class="num">4</span><span class="lbl">Precisa ser feito</span></a><a class="kpi k-ok" href="#revisado"><span class="num">17</span><span class="lbl">Revisado</span></a><a class="kpi k-info" href="#revisando"><span class="num">0</span><span class="lbl">Sendo revisado</span></a><a class="kpi k-err" href="#revisar"><span class="num">10</span><span class="lbl">Precisa ser revisado</span></a></nav>
-  <div class="alerta"><b>10 vídeos atrasados</b> em 2 tarefas: Último dia de Black Friday · Camiseta Minimal · Sem Camisa · Fernando</div>
-  <div class="grade">
-    <div class="coluna"><h4>Produção</h4><section class="bloco b-ok" id="concluido">
-  <header><h2>Concluído</h2><span class="cont">12 vídeos</span></header>
-  <p class="desc">Entregue desde a última daily</p>
-  <article class="card">
-  <div class="thumbs"><img src="thumbs/9ec194c37602f428.jpg" alt="Vídeo 1 · Singapura" loading="lazy" width="72" height="128"><img src="thumbs/9d7558e5db706c29.jpg" alt="Vídeo 2 · Big Sur" loading="lazy" width="72" height="128"><img src="thumbs/32ff6840d3b33eda.jpg" alt="Vídeo 3 · Courchevel" loading="lazy" width="72" height="128"><img src="thumbs/43e86ef37438f1b5.jpg" alt="Vídeo 4 · Wadi Rum" loading="lazy" width="72" height="128"><img src="thumbs/f6c58242111ea171.jpg" alt="Vídeo 5 · Cotswolds" loading="lazy" width="72" height="128"></div>
-  <div class="info">
-    <div class="topo"><span class="tag">IA</span><span class="prazo">entregue seg 19h16</span></div>
-    <h3 title="[IA] Dia da Black - IA Carro - 5H-1B">Dia da Black · IA Carro</h3>
-    <p class="n">5 vídeos</p>
-    <p class="quem"><span><b>Demandante</b> Pedro Alvite</span><span><b>Edição</b> Marconi</span></p>
+  <h1>Produção de vídeos <span class="data">ter 24/11</span></h1>
+  <p class="sub">Situação às 10h13 · desde a daily de seg 23/11, 15h30 · números em vídeos</p>
+  <section class="decisao" aria-labelledby="t-decisao">
+  <h2 id="t-decisao">Antes da daily<span>10 vídeos em 2 revisões atrasadas</span></h2>
+  <div class="at-grupo g-atraso"><h3>Revisão atrasada <span>com o revisor</span></h3><ul><li><a href="#revisar-17tr6jhby0v"><span class="sinal vermelho">Atrasada</span><span class="a-quem"><b>Pedro Alvite</b><small class="desde">prazo seg 23/11 · enviado seg 20h30</small></span><span class="a-titulo">Último dia de Black Friday</span><span class="a-n">5 vídeos <span aria-hidden="true" class="seta-ir">›</span></span></a></li><li><a href="#revisar-17tr6jhbwqv"><span class="sinal vermelho">Atrasada</span><span class="a-quem"><b>Victor</b><small class="desde">prazo seg 23/11 · enviado seg 21h35</small></span><span class="a-titulo">Fernando <small>Camiseta Minimal</small></span><span class="a-n">5 vídeos <span aria-hidden="true" class="seta-ir">›</span></span></a></li></ul></div>
+  <div class="at-grupo"><p class="at-vazio"><b>Edição atrasada:</b> nenhuma</p></div>
+  <div class="at-grupo g-hoje"><h3>Vence hoje</h3><ul><li><a href="#fazendo-17tr6jh15nq"><span class="sinal laranja">Hoje</span><span class="a-quem"><b>Joana</b></span><span class="a-titulo">Carteiro <small>Camiseta</small></span><span class="a-n">1 vídeo <span aria-hidden="true" class="seta-ir">›</span></span></a></li></ul></div>
+</section>
+  <nav class="resumo" aria-label="Resumo">
+    <div class="fluxo"><h2 class="rotulo-grupo">Produção</h2><div class="etapas"><a class="etapa" href="#concluido"><span class="num">12</span><span class="rot">Concluído</span></a><a class="etapa" href="#fazendo"><span class="num">1</span><span class="rot">Sendo feito</span></a><a class="etapa" href="#fazer"><span class="num">≈4</span><span class="rot">Precisa ser feito</span><span class="obs">estimado</span></a></div></div>
+    <div class="fluxo"><h2 class="rotulo-grupo">Revisão</h2><div class="etapas"><a class="etapa" href="#revisado"><span class="num">17</span><span class="rot">Revisado</span></a><a class="etapa zerado" href="#revisando"><span class="num">0</span><span class="rot">Sendo revisado</span></a><a class="etapa com-atraso" href="#revisar"><span class="num">10</span><span class="rot">Precisa ser revisado</span><span class="alerta-num">revisão atrasada</span></a></div></div>
+  </nav>
+  <div class="grupo"><h2>Produção</h2><section class="secao" id="concluido">
+  <header><h3 class="titulo-secao">Concluído</h3><span class="total">12 vídeos</span></header>
+  <ul class="lista"><li class="linha" id="concluido-17tr6jhbudw">
+  <div class="tira" data-mais="4"><img src="thumbs/9ec194c37602f428.jpg" alt="Vídeo 1 · Singapura" loading="lazy" width="40" height="71"><img src="thumbs/9d7558e5db706c29.jpg" alt="Vídeo 2 · Big Sur" loading="lazy" width="40" height="71"><img src="thumbs/32ff6840d3b33eda.jpg" alt="Vídeo 3 · Courchevel" loading="lazy" width="40" height="71"><img src="thumbs/43e86ef37438f1b5.jpg" alt="Vídeo 4 · Wadi Rum" loading="lazy" width="40" height="71"><span class="mais">+1</span></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#008844;--pt:#ffffff">COMPLETE</span><span class="tag">IA</span><span class="qtd"><b>5</b> vídeos</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jhbudw" target="_blank" rel="noopener noreferrer" title="[IA] Dia da Black - IA Carro - 5H-1B (abre no ClickUp)">Dia da Black · IA Carro<span class="ext" aria-hidden="true">↗</span></a></h4>
+    
+    
+    <dl class="pessoas"><div><dt>Edição</dt><dd>Marconi</dd></div><div><dt>Demandante</dt><dd>Pedro Alvite</dd></div></dl>
+    <p class="datas"><span class="quando ok">Entregue seg 23/11, 19h16</span><span class="quando">Prazo seg 23/11</span></p>
   </div>
-</article>
-<article class="card">
-  <div class="thumbs"><img src="thumbs/6970cf3fb3187e5c.jpg" alt="Camiseta" loading="lazy" width="72" height="128"><img src="thumbs/bd7a2a59ba5fcf3a.jpg" alt="Comfort" loading="lazy" width="72" height="128"><img src="thumbs/f950aa24fa19687f.jpg" alt="Gola Alta" loading="lazy" width="72" height="128"><img src="thumbs/a1be339db9e8632a.jpg" alt="Jeans" loading="lazy" width="72" height="128"><img src="thumbs/03e5828fe74eb8e9.jpg" alt="Overshirt" loading="lazy" width="72" height="128"><span class="mais">+2</span></div>
-  <div class="info">
-    <div class="topo"><span class="tag">IA</span><span class="prazo">entregue seg 17h06</span></div>
-    <h3 title="[IA] Videos para Pagina">Videos para Pagina</h3>
-    <p class="n">7 vídeos</p>
-    <p class="quem"><span><b>Demandante</b> Michele</span><span><b>Edição</b> Michele + Marconi</span></p>
+</li>
+<li class="linha" id="concluido-17tr6jhbhh3">
+  <div class="tira" data-mais="6"><img src="thumbs/6970cf3fb3187e5c.jpg" alt="Camiseta" loading="lazy" width="40" height="71"><img src="thumbs/bd7a2a59ba5fcf3a.jpg" alt="Comfort" loading="lazy" width="40" height="71"><img src="thumbs/f950aa24fa19687f.jpg" alt="Gola Alta" loading="lazy" width="40" height="71"><img src="thumbs/a1be339db9e8632a.jpg" alt="Jeans" loading="lazy" width="40" height="71"><span class="mais">+3</span></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#008844;--pt:#ffffff">COMPLETE</span><span class="tag">IA</span><span class="qtd"><b>7</b> vídeos</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jhbhh3" target="_blank" rel="noopener noreferrer" title="[IA] Videos para Pagina (abre no ClickUp)">Videos para Pagina<span class="ext" aria-hidden="true">↗</span></a></h4>
+    
+    
+    <dl class="pessoas"><div><dt>Edição</dt><dd>Michele, Marconi</dd></div><div><dt>Demandante</dt><dd>Michele</dd></div></dl>
+    <p class="datas"><span class="quando ok">Entregue seg 23/11, 17h06</span><span class="quando">Prazo sex 20/11</span></p>
   </div>
-</article>
-</section><section class="bloco b-accent" id="fazendo">
-  <header><h2>Sendo feito</h2><span class="cont">1 vídeo</span></header>
-  <p class="desc">Em edição agora</p>
-  <article class="card">
-  <div class="thumbs"><img src="thumbs/809bacb166e1c887.jpg" alt="Big Copy Carteiro" loading="lazy" width="72" height="128"></div>
-  <div class="info">
-    <div class="topo"><span class="tag">IA</span><span class="prazo">prazo hoje</span></div>
-    <h3 title="[IA] Camiseta - Big Copy IA - Black Friday - Carteiro">Camiseta · Big Copy IA · Black Friday · Carteiro</h3>
-    <p class="n">1 vídeo · 1 de 1 na galeria</p>
-    <p class="quem"><span><b>Demandante</b> Pedro Nasser</span><span><b>Edição</b> Joana</span></p>
+</li></ul>
+</section><section class="secao" id="fazendo">
+  <header><h3 class="titulo-secao">Sendo feito</h3><span class="total">1 vídeo</span></header>
+  <ul class="lista"><li class="linha" id="fazendo-17tr6jh15nq">
+  <div class="tira" data-mais="0"><img src="thumbs/809bacb166e1c887.jpg" alt="Big Copy Carteiro" loading="lazy" width="40" height="71"></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#e16b16;--pt:#17191b">EDITANDO</span><span class="tag">IA</span><span class="qtd"><b>1</b> vídeo</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jh15nq" target="_blank" rel="noopener noreferrer" title="[IA] Camiseta - Big Copy IA - Black Friday - Carteiro (abre no ClickUp)">Carteiro<span class="ext" aria-hidden="true">↗</span></a></h4>
+    <p class="contexto">Camiseta · Big Copy IA · Black Friday</p>
+    <p class="rodada"><span>1 de 1 na galeria</span><span>ainda não enviado para revisão</span></p>
+    <dl class="pessoas"><div><dt>Edição</dt><dd>Joana</dd></div><div><dt>Demandante</dt><dd>Pedro Nasser</dd></div></dl>
+    <p class="datas"><span class="quando hoje">Vence hoje</span></p>
   </div>
-</article>
-</section><section class="bloco b-warn" id="fazer">
-  <header><h2>Precisa ser feito</h2><span class="cont">4 vídeos</span></header>
-  <p class="desc">Captado, a editar ou com ajustes</p>
-  <article class="card">
-  <div class="thumbs"><span class="vazia" aria-hidden="true"></span></div>
-  <div class="info">
-    <div class="topo"><span class="tag st">captado</span><span class="tag">IA</span><span class="prazo">prazo qua 25/11</span></div>
-    <h3 title="[IA] Camiseta - Big Copy IA - Black Friday - Marido e Mulher 2">Camiseta · Big Copy IA · Black Friday · Marido e Mulher 2</h3>
-    <p class="n">1 vídeo (estimado)</p>
-    <p class="quem"><span><b>Demandante</b> Pedro Nasser</span><span><b>Edição</b> Marconi</span></p>
+</li></ul>
+</section><section class="secao" id="fazer">
+  <header><h3 class="titulo-secao">Precisa ser feito</h3><span class="total">≈4 vídeos (estimado)</span></header>
+  <ul class="lista"><li class="linha" id="fazer-17tr6jh15nv">
+  <div class="tira vazia"><span>Sem prévia</span></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#a18072;--pt:#17191b">CAPTADO</span><span class="tag">IA</span><span class="qtd"><b>≈1</b> vídeo</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jh15nv" target="_blank" rel="noopener noreferrer" title="[IA] Camiseta - Big Copy IA - Black Friday - Marido e Mulher 2 (abre no ClickUp)">Marido e Mulher 2<span class="ext" aria-hidden="true">↗</span></a></h4>
+    <p class="contexto">Camiseta · Big Copy IA · Black Friday</p>
+    
+    <dl class="pessoas"><div><dt>Edição</dt><dd>Marconi</dd></div><div><dt>Demandante</dt><dd>Pedro Nasser</dd></div></dl>
+    <p class="datas"><span class="quando">Prazo qua 25/11</span></p>
   </div>
-</article>
-<article class="card">
-  <div class="thumbs"><span class="vazia" aria-hidden="true"></span></div>
-  <div class="info">
-    <div class="topo"><span class="tag st">captado</span><span class="tag">IA</span><span class="prazo">prazo qui 26/11</span></div>
-    <h3 title="[IA] Camiseta - Big Copy IA - Black Friday - H2 Marido e Mulher">Camiseta · Big Copy IA · Black Friday · H2 Marido e Mulher</h3>
-    <p class="n">1 vídeo (estimado)</p>
-    <p class="quem"><span><b>Demandante</b> Pedro Nasser</span><span><b>Edição</b> Joana</span></p>
+</li>
+<li class="linha" id="fazer-17tr6jh15nu">
+  <div class="tira vazia"><span>Sem prévia</span></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#a18072;--pt:#17191b">CAPTADO</span><span class="tag">IA</span><span class="qtd"><b>≈1</b> vídeo</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jh15nu" target="_blank" rel="noopener noreferrer" title="[IA] Camiseta - Big Copy IA - Black Friday - H2 Marido e Mulher (abre no ClickUp)">H2 Marido e Mulher<span class="ext" aria-hidden="true">↗</span></a></h4>
+    <p class="contexto">Camiseta · Big Copy IA · Black Friday</p>
+    
+    <dl class="pessoas"><div><dt>Edição</dt><dd>Joana</dd></div><div><dt>Demandante</dt><dd>Pedro Nasser</dd></div></dl>
+    <p class="datas"><span class="quando">Prazo qui 26/11</span></p>
   </div>
-</article>
-<article class="card">
-  <div class="thumbs"><span class="vazia" aria-hidden="true"></span></div>
-  <div class="info">
-    <div class="topo"><span class="tag st">captado</span><span class="tag">IA</span><span class="prazo">prazo sex 27/11</span></div>
-    <h3 title="[IA] Camiseta - Big Copy IA - Black Friday - Sequestro Hook Leonardo">Camiseta · Big Copy IA · Black Friday · Sequestro Hook Leonardo</h3>
-    <p class="n">1 vídeo (estimado)</p>
-    <p class="quem"><span><b>Demandante</b> Pedro Nasser</span><span><b>Edição</b> Marconi</span></p>
+</li>
+<li class="linha" id="fazer-17tr6jh15nr">
+  <div class="tira vazia"><span>Sem prévia</span></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#a18072;--pt:#17191b">CAPTADO</span><span class="tag">IA</span><span class="qtd"><b>≈1</b> vídeo</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jh15nr" target="_blank" rel="noopener noreferrer" title="[IA] Camiseta - Big Copy IA - Black Friday - Sequestro Hook Leonardo (abre no ClickUp)">Sequestro Hook Leonardo<span class="ext" aria-hidden="true">↗</span></a></h4>
+    <p class="contexto">Camiseta · Big Copy IA · Black Friday</p>
+    
+    <dl class="pessoas"><div><dt>Edição</dt><dd>Marconi</dd></div><div><dt>Demandante</dt><dd>Pedro Nasser</dd></div></dl>
+    <p class="datas"><span class="quando">Prazo sex 27/11</span></p>
   </div>
-</article>
-<article class="card">
-  <div class="thumbs"><span class="vazia" aria-hidden="true"></span></div>
-  <div class="info">
-    <div class="topo"><span class="tag st">captado</span><span class="tag">IA</span><span class="prazo">prazo seg 30/11</span></div>
-    <h3 title="[IA] Camiseta - Big Copy IA - Black Friday - Dr Bomba H2">Camiseta · Big Copy IA · Black Friday · Dr Bomba H2</h3>
-    <p class="n">1 vídeo (estimado)</p>
-    <p class="quem"><span><b>Demandante</b> Pedro Nasser</span><span><b>Edição</b> Joana</span></p>
+</li>
+<li class="linha" id="fazer-17tr6jh15nx">
+  <div class="tira vazia"><span>Sem prévia</span></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#a18072;--pt:#17191b">CAPTADO</span><span class="tag">IA</span><span class="qtd"><b>≈1</b> vídeo</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jh15nx" target="_blank" rel="noopener noreferrer" title="[IA] Camiseta - Big Copy IA - Black Friday - Dr Bomba H2 (abre no ClickUp)">Dr Bomba H2<span class="ext" aria-hidden="true">↗</span></a></h4>
+    <p class="contexto">Camiseta · Big Copy IA · Black Friday</p>
+    
+    <dl class="pessoas"><div><dt>Edição</dt><dd>Joana</dd></div><div><dt>Demandante</dt><dd>Pedro Nasser</dd></div></dl>
+    <p class="datas"><span class="quando">Prazo seg 30/11</span></p>
   </div>
-</article>
+</li></ul>
 </section></div>
-    <div class="coluna"><h4>Revisão</h4><section class="bloco b-ok" id="revisado">
-  <header><h2>Revisado</h2><span class="cont">17 vídeos</span></header>
-  <p class="desc">Revisões devolvidas desde a última daily</p>
-  <article class="card card-atraso">
-  <div class="thumbs"><img src="thumbs/8e3f62c5281472e2.jpg" alt="Hook 1 + Body" loading="lazy" width="72" height="128"><img src="thumbs/645e09935d285228.jpg" alt="Hook 2 + Body" loading="lazy" width="72" height="128"><img src="thumbs/1cc079863aaf5152.jpg" alt="Hook 3 + Body" loading="lazy" width="72" height="128"><img src="thumbs/6180956f7cbbd6ff.jpg" alt="Hook 4 + Body" loading="lazy" width="72" height="128"><img src="thumbs/9362ea1a34949241.jpg" alt="Hook 5 + Body" loading="lazy" width="72" height="128"></div>
-  <div class="info">
-    <div class="topo"><span class="tag">IA UGC</span><span class="prazo atrasado">seg 23/11 · 1d atrasado</span></div>
-    <h3 title="[IA UGC] Camiseta Minimal - Sem Camisa - Fernando - 1B - 5H">Camiseta Minimal · Sem Camisa · Fernando</h3>
-    <p class="n">5 vídeos · 4 aprovados, 1 com ajustes</p>
-    <p class="quem"><span><b>Demandante</b> Victor</span><span><b>Revisor</b> Victor</span></p>
+  <div class="grupo"><h2>Revisão</h2><section class="secao" id="revisado">
+  <header><h3 class="titulo-secao">Revisado</h3><span class="total">17 vídeos</span></header>
+  <ul class="lista"><li class="linha" id="revisado-17tr6jhbhh3">
+  <div class="tira" data-mais="6"><img src="thumbs/6970cf3fb3187e5c.jpg" alt="Camiseta" loading="lazy" width="40" height="71"><img src="thumbs/bd7a2a59ba5fcf3a.jpg" alt="Comfort" loading="lazy" width="40" height="71"><img src="thumbs/f950aa24fa19687f.jpg" alt="Gola Alta" loading="lazy" width="40" height="71"><img src="thumbs/a1be339db9e8632a.jpg" alt="Jeans" loading="lazy" width="40" height="71"><span class="mais">+3</span></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#008844;--pt:#ffffff">COMPLETE</span><span class="tag">IA</span><span class="qtd"><b>7</b> vídeos</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jhbhh3" target="_blank" rel="noopener noreferrer" title="[IA] Videos para Pagina (abre no ClickUp)">Videos para Pagina<span class="ext" aria-hidden="true">↗</span></a></h4>
+    
+    <p class="rodada"><span>Rodada devolvida seg 23/11, 17h02</span><span>v2, v3 e v4</span><span class="res"><i style="--c:#008844"></i>5 aprovados</span><span class="res"><i style="--c:#df7d7d"></i>2 com ajustes, já entregues</span></p>
+    <dl class="pessoas"><div><dt>Revisão e edição</dt><dd>Michele, Marconi</dd></div><div><dt>Demandante</dt><dd>Michele</dd></div></dl>
+    <p class="datas"><span class="quando">Prazo sex 20/11</span></p>
   </div>
-</article>
-<article class="card">
-  <div class="thumbs"><img src="thumbs/6970cf3fb3187e5c.jpg" alt="Camiseta" loading="lazy" width="72" height="128"><img src="thumbs/bd7a2a59ba5fcf3a.jpg" alt="Comfort" loading="lazy" width="72" height="128"><img src="thumbs/f950aa24fa19687f.jpg" alt="Gola Alta" loading="lazy" width="72" height="128"><img src="thumbs/a1be339db9e8632a.jpg" alt="Jeans" loading="lazy" width="72" height="128"><img src="thumbs/03e5828fe74eb8e9.jpg" alt="Overshirt" loading="lazy" width="72" height="128"><span class="mais">+2</span></div>
-  <div class="info">
-    <div class="topo"><span class="tag">IA</span><span class="prazo">entregue seg 17h06</span></div>
-    <h3 title="[IA] Videos para Pagina">Videos para Pagina</h3>
-    <p class="n">7 vídeos · 5 aprovados, 2 com ajustes</p>
-    <p class="quem"><span><b>Demandante</b> Michele</span><span><b>Revisor</b> Michele e Marconi</span></p>
+</li>
+<li class="linha" id="revisado-17tr6jhbwqv">
+  <div class="tira" data-mais="4"><img src="thumbs/8e3f62c5281472e2.jpg" alt="Hook 1 + Body" loading="lazy" width="40" height="71"><img src="thumbs/645e09935d285228.jpg" alt="Hook 2 + Body" loading="lazy" width="40" height="71"><img src="thumbs/1cc079863aaf5152.jpg" alt="Hook 3 + Body" loading="lazy" width="40" height="71"><img src="thumbs/6180956f7cbbd6ff.jpg" alt="Hook 4 + Body" loading="lazy" width="40" height="71"><span class="mais">+1</span></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#9e49ab;--pt:#ffffff">REVIEW</span><span class="tag">IA UGC</span><span class="qtd"><b>5</b> vídeos</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jhbwqv" target="_blank" rel="noopener noreferrer" title="[IA UGC] Camiseta Minimal - Sem Camisa - Fernando - 1B - 5H (abre no ClickUp)">Fernando<span class="ext" aria-hidden="true">↗</span></a></h4>
+    <p class="contexto">Camiseta Minimal · Sem Camisa</p>
+    <p class="rodada"><span>Rodada anterior devolvida seg 23/11, 19h59</span><span>v1 e v2</span><span class="res"><i style="--c:#008844"></i>4 aprovados</span><span class="res"><i style="--c:#df7d7d"></i>1 com ajustes</span><a class="seg" href="#revisar-17tr6jhbwqv">Nova rodada aguardando revisão ↓</a></p>
+    <dl class="pessoas"><div><dt>Revisor e demandante</dt><dd>Victor</dd></div><div><dt>Edição</dt><dd>Marconi</dd></div></dl>
+    <p class="datas"><span class="quando">Prazo seg 23/11</span></p>
   </div>
-</article>
-<article class="card">
-  <div class="thumbs"><img src="thumbs/43e86ef37438f1b5.jpg" alt="Vídeo 4 · Wadi Rum" loading="lazy" width="72" height="128"><img src="thumbs/f6c58242111ea171.jpg" alt="Vídeo 5 · Cotswolds" loading="lazy" width="72" height="128"><img src="thumbs/9ec194c37602f428.jpg" alt="Vídeo 1 · Singapura" loading="lazy" width="72" height="128"><img src="thumbs/9d7558e5db706c29.jpg" alt="Vídeo 2 · Big Sur" loading="lazy" width="72" height="128"><img src="thumbs/32ff6840d3b33eda.jpg" alt="Vídeo 3 · Courchevel" loading="lazy" width="72" height="128"></div>
-  <div class="info">
-    <div class="topo"><span class="tag">IA</span><span class="prazo">entregue seg 19h16</span></div>
-    <h3 title="[IA] Dia da Black - IA Carro - 5H-1B">Dia da Black · IA Carro</h3>
-    <p class="n">5 vídeos · 3 aprovados, 2 com ajustes</p>
-    <p class="quem"><span><b>Demandante</b> Pedro Alvite</span><span><b>Revisor</b> Pedro Alvite</span></p>
+</li>
+<li class="linha" id="revisado-17tr6jhbudw">
+  <div class="tira" data-mais="4"><img src="thumbs/9ec194c37602f428.jpg" alt="Vídeo 1 · Singapura" loading="lazy" width="40" height="71"><img src="thumbs/9d7558e5db706c29.jpg" alt="Vídeo 2 · Big Sur" loading="lazy" width="40" height="71"><img src="thumbs/32ff6840d3b33eda.jpg" alt="Vídeo 3 · Courchevel" loading="lazy" width="40" height="71"><img src="thumbs/43e86ef37438f1b5.jpg" alt="Vídeo 4 · Wadi Rum" loading="lazy" width="40" height="71"><span class="mais">+1</span></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#008844;--pt:#ffffff">COMPLETE</span><span class="tag">IA</span><span class="qtd"><b>5</b> vídeos</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jhbudw" target="_blank" rel="noopener noreferrer" title="[IA] Dia da Black - IA Carro - 5H-1B (abre no ClickUp)">Dia da Black · IA Carro<span class="ext" aria-hidden="true">↗</span></a></h4>
+    
+    <p class="rodada"><span>Rodada devolvida seg 23/11, 19h13</span><span>v1 e v2</span><span class="res"><i style="--c:#008844"></i>3 aprovados</span><span class="res"><i style="--c:#df7d7d"></i>2 com ajustes, já entregues</span></p>
+    <dl class="pessoas"><div><dt>Revisor e demandante</dt><dd>Pedro Alvite</dd></div><div><dt>Edição</dt><dd>Marconi</dd></div></dl>
+    <p class="datas"><span class="quando">Prazo seg 23/11</span></p>
   </div>
-</article>
-</section><section class="bloco b-info" id="revisando">
-  <header><h2>Sendo revisado</h2><span class="cont">0 vídeos</span></header>
-  <p class="desc">Revisor já abriu e está comentando</p>
-  <p class="nada">Nada aqui hoje.</p>
-</section><section class="bloco b-err" id="revisar">
-  <header><h2>Precisa ser revisado</h2><span class="cont">10 vídeos</span></header>
-  <p class="desc">Aguardando o revisor</p>
-  <article class="card card-atraso">
-  <div class="thumbs"><img src="thumbs/c9c2245d540f0315.jpg" alt="Hook 1 + Body" loading="lazy" width="72" height="128"><img src="thumbs/1dc15bed6e92d703.jpg" alt="Hook 2 + Body" loading="lazy" width="72" height="128"><img src="thumbs/17576feaea687ce0.jpg" alt="Hook 3 + Body" loading="lazy" width="72" height="128"><img src="thumbs/3d68d3788a5da25b.jpg" alt="Hook 4 + Body" loading="lazy" width="72" height="128"><img src="thumbs/8a081b98d8c2e80c.jpg" alt="Hook 5 + Body" loading="lazy" width="72" height="128"></div>
-  <div class="info">
-    <div class="topo"><span class="tag">IA</span><span class="prazo atrasado">seg 23/11 · 1d atrasado</span></div>
-    <h3 title="[IA] 5 Versões - Último dia de Black Friday">Último dia de Black Friday</h3>
-    <p class="n">5 vídeos</p>
-    <p class="quem"><span><b>Demandante</b> Joana</span><span><b>Revisor</b> Pedro Alvite</span></p>
+</li></ul>
+</section><section class="secao" id="revisando">
+  <header><h3 class="titulo-secao">Sendo revisado</h3><span class="total">0 vídeos</span></header>
+  <p class="vazio-txt">Nenhum revisor comentando agora.</p>
+</section><section class="secao" id="revisar">
+  <header><h3 class="titulo-secao">Precisa ser revisado</h3><span class="total">10 vídeos</span></header>
+  <ul class="lista"><li class="linha tem-atraso" id="revisar-17tr6jhby0v">
+  <div class="tira" data-mais="4"><img src="thumbs/c9c2245d540f0315.jpg" alt="Hook 1 + Body" loading="lazy" width="40" height="71"><img src="thumbs/1dc15bed6e92d703.jpg" alt="Hook 2 + Body" loading="lazy" width="40" height="71"><img src="thumbs/17576feaea687ce0.jpg" alt="Hook 3 + Body" loading="lazy" width="40" height="71"><img src="thumbs/3d68d3788a5da25b.jpg" alt="Hook 4 + Body" loading="lazy" width="40" height="71"><span class="mais">+1</span></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#9e49ab;--pt:#ffffff">REVIEW</span><span class="tag">IA</span><span class="qtd"><b>5</b> vídeos</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jhby0v" target="_blank" rel="noopener noreferrer" title="[IA] 5 Versões - Último dia de Black Friday (abre no ClickUp)">Último dia de Black Friday<span class="ext" aria-hidden="true">↗</span></a></h4>
+    
+    <p class="rodada"><span>Rodada enviada seg 23/11, 20h30</span><span>v2</span><span>Pedro Alvite ainda não abriu</span></p>
+    <dl class="pessoas"><div><dt>Revisor</dt><dd>Pedro Alvite</dd></div><div><dt>Edição e demandante</dt><dd>Joana</dd></div></dl>
+    <p class="datas"><span class="quando atraso">Revisão atrasada</span><span class="quando">Prazo seg 23/11</span></p>
   </div>
-</article>
-<article class="card card-atraso">
-  <div class="thumbs"><img src="thumbs/8e3f62c5281472e2.jpg" alt="Hook 1 + Body" loading="lazy" width="72" height="128"><img src="thumbs/645e09935d285228.jpg" alt="Hook 2 + Body" loading="lazy" width="72" height="128"><img src="thumbs/1cc079863aaf5152.jpg" alt="Hook 3 + Body" loading="lazy" width="72" height="128"><img src="thumbs/6180956f7cbbd6ff.jpg" alt="Hook 4 + Body" loading="lazy" width="72" height="128"><img src="thumbs/9362ea1a34949241.jpg" alt="Hook 5 + Body" loading="lazy" width="72" height="128"></div>
-  <div class="info">
-    <div class="topo"><span class="tag">IA UGC</span><span class="prazo atrasado">seg 23/11 · 1d atrasado</span></div>
-    <h3 title="[IA UGC] Camiseta Minimal - Sem Camisa - Fernando - 1B - 5H">Camiseta Minimal · Sem Camisa · Fernando</h3>
-    <p class="n">5 vídeos</p>
-    <p class="quem"><span><b>Demandante</b> Victor</span><span><b>Revisor</b> Victor</span></p>
+</li>
+<li class="linha tem-atraso" id="revisar-17tr6jhbwqv">
+  <div class="tira" data-mais="4"><img src="thumbs/8e3f62c5281472e2.jpg" alt="Hook 1 + Body" loading="lazy" width="40" height="71"><img src="thumbs/645e09935d285228.jpg" alt="Hook 2 + Body" loading="lazy" width="40" height="71"><img src="thumbs/1cc079863aaf5152.jpg" alt="Hook 3 + Body" loading="lazy" width="40" height="71"><img src="thumbs/6180956f7cbbd6ff.jpg" alt="Hook 4 + Body" loading="lazy" width="40" height="71"><span class="mais">+1</span></div>
+  <div class="corpo">
+    <div class="estado"><span class="pill" style="--pc:#9e49ab;--pt:#ffffff">REVIEW</span><span class="tag">IA UGC</span><span class="qtd"><b>5</b> vídeos</span></div>
+    <h4><a href="https://app.clickup.com/t/17tr6jhbwqv" target="_blank" rel="noopener noreferrer" title="[IA UGC] Camiseta Minimal - Sem Camisa - Fernando - 1B - 5H (abre no ClickUp)">Fernando<span class="ext" aria-hidden="true">↗</span></a></h4>
+    <p class="contexto">Camiseta Minimal · Sem Camisa</p>
+    <p class="rodada"><span>Nova rodada enviada seg 23/11, 21h35</span><span>v2 e v3</span><span>5 vídeos reenviados</span><span>Victor ainda não abriu</span></p>
+    <dl class="pessoas"><div><dt>Revisor e demandante</dt><dd>Victor</dd></div><div><dt>Edição</dt><dd>Marconi</dd></div></dl>
+    <p class="datas"><span class="quando atraso">Revisão atrasada</span><span class="quando">Prazo seg 23/11</span></p>
   </div>
-</article>
+</li></ul>
 </section></div>
-  </div>
-  <p class="rodape-nota">Também em review no ClickUp, sem movimento há mais de 30 dias e fora do revisor: Camiseta_Compre_3_Leve_4_PERFUME_REACT_LARISSA · Camiseta Minimal · TOF · Jumanji · Camiseta Minimal · MOF Perfume · Marido e Mulher · Camiseta Minimal · MOF Carteira · Gênia (11 vídeos). Vale arquivar ou retomar.</p>
-  <footer><span>Fonte: lista Video do ClickUp e revisor Ultron · gerado 24/11 08h41</span><span>Nasser, Head de Marketing Virtual.</span></footer>
+  <details class="antigos"><summary>4 tarefas paradas em review há mais de 30 dias, fora do revisor (11 vídeos, fora dos números)</summary><ul><li><span class="pill" style="--pc:#9e49ab;--pt:#ffffff">REVIEW</span> <a class="nome-antigo" href="https://app.clickup.com/t/86ahqafkv" target="_blank" rel="noopener noreferrer">Camiseta_Compre_3_Leve_4_PERFUME_REACT_LARISSA ↗</a></li><li><span class="pill" style="--pc:#9e49ab;--pt:#ffffff">REVIEW</span> <a class="nome-antigo" href="https://app.clickup.com/t/86ah4tn4q" target="_blank" rel="noopener noreferrer">Jumanji ↗</a></li><li><span class="pill" style="--pc:#9e49ab;--pt:#ffffff">REVIEW</span> <a class="nome-antigo" href="https://app.clickup.com/t/86ah4tn2b" target="_blank" rel="noopener noreferrer">Marido e Mulher ↗</a></li><li><span class="pill" style="--pc:#9e49ab;--pt:#ffffff">REVIEW</span> <a class="nome-antigo" href="https://app.clickup.com/t/86ah4tn1p" target="_blank" rel="noopener noreferrer">Gênia ↗</a></li></ul><p>Vale arquivar ou retomar no ClickUp.</p></details>
+  <div class="legenda"><span>Status do ClickUp:</span><span class="pill" style="--pc:#3e63dd;--pt:#ffffff">A GRAVAR</span><span class="pill" style="--pc:#a18072;--pt:#17191b">CAPTADO</span><span class="pill" style="--pc:#f8ae00;--pt:#17191b">A EDITAR</span><span class="pill" style="--pc:#e16b16;--pt:#17191b">EDITANDO</span><span class="pill" style="--pc:#9e49ab;--pt:#ffffff">REVIEW</span><span class="pill" style="--pc:#df7d7d;--pt:#17191b">AJUSTES</span><span class="pill" style="--pc:#008844;--pt:#ffffff">COMPLETE</span></div>
+  <p class="nota">Números em vídeos (hooks × bodies), não em tarefas; ≈ indica quantidade estimada pelo nome da tarefa. Vídeo que já foi para revisão não conta como edição atrasada: o atraso é da revisão, com o revisor. Um lote pode estar em Revisado (rodada anterior) e em Precisa ser revisado (rodada nova).</p>
+  <footer><span>Fonte: lista Video do ClickUp e revisor Ultron · gerado 24/11 às 10h13</span><span>Nasser, Head de Marketing Virtual.</span></footer>
 </main>
 </body>
 </html>
